@@ -22,28 +22,29 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/stay.png',
-        name : 'Stay',
-        artist : 'The Kid LAROI, Justin Bieber',
-        music : 'music/stay.mp3'
+        img : 'https://raw.githubusercontent.com/kalixd000/Memi/main/imagenes/donde.jpg',
+        name : '¿Dónde estás?',
+        artist : 'Canción que me enseñaste y super ame',
+        music : 'https://raw.githubusercontent.com/kalixd000/Memi/main/music/donde.aac'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        music : 'music/fallingdown.mp3'
+        img : 'https://raw.githubusercontent.com/kalixd000/Memi/main/imagenes/limon.jpg',
+        name : 'Limón y sal',
+        artist : 'Concordamos que definía la relación',
+        music : 'https://raw.githubusercontent.com/kalixd000/Memi/main/music/limon.mpeg'
+
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        music : 'music/Faded.mp3'
+        img : 'https://raw.githubusercontent.com/kalixd000/Memi/main/imagenes/novedad.jpg',
+        name : 'La novedad',
+        artist : 'Pienso en nosotros cuando la escucho',
+        music : 'https://raw.githubusercontent.com/kalixd000/Memi/main/music/novedad.mp4'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        music : 'music/Rather Be.mp3'
+        img : 'https://raw.githubusercontent.com/kalixd000/Memi/main/imagenes/QUIERO.jpg',
+        name : 'Quiero ver',
+        artist : 'Dedicatoria',
+        music : 'https://raw.githubusercontent.com/kalixd000/Memi/main/music/ver.mp4'
     }
 ];
 
