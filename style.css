@@ -203,4 +203,101 @@ body {
     .stroke:nth-child(7){
         animation-delay: 0s;
     }
+@media (max-width: 600px) {
+
+    body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .player {
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .wrapper {
+        width: 100%;
+        max-width: 380px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        border-radius: 18px;
+    }
+    .details {
+        width: 100%;
+        min-width: 0;
+    }
+    .track-art {
+        width: min(65vw, 230px);
+        height: min(65vw, 230px);
+        margin: 15px auto 20px;
+        flex-shrink: 0;
+    }
+    .track-name {
+        max-width: 100%;
+        font-size: 1.6rem;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+    .track-artist {
+        max-width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+    .now-playing {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .buttons {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+    .repeat-track,
+    .random-track,
+    .playpause-track,
+    .prev-track,
+    .next-track {
+        padding: 10px;
+    }
+    .buttons i {
+        font-size: 1.3rem;
+    }
+    .slider_container {
+        width: 100%;
+        gap: 5px;
+    }
+    .seek_slider {
+        width: 100%;
+        min-width: 0;
+    }
+    .current-time,
+    .total-duration {
+        padding: 5px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    .volume_slider {
+        width: 100%;
+        min-width: 0;
+    }
+    i.fa-volume-down,
+    i.fa-volume-up {
+        padding: 5px;
+    }
+    .loader {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .loader .stroke {
+        width: 7px;
+        margin: 0 3px;
+    }
+}
+
     
